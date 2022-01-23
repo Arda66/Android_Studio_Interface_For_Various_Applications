@@ -38,4 +38,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, GirisYap.class);
         startActivity(intent);
     }
+
+    public  void ikinci_derece_denklem(View view){
+        Intent intent = new Intent(this, ikinci_Derece_Denklem.class);
+        startActivity(intent);
+    }
+
+    public void Hesap_makinesi_butonu(View view) {
+        Intent intent = new Intent(this, Hesap_Makinesi.class);
+        startActivity(intent);
+    }
+
+
 }

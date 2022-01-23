@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SansOyunu">
         <activity
+            android:name=".islemler"
+            android:exported="false" />
+        <activity
+            android:name=".GameOver"
+            android:exported="false" />
+        <activity
+            android:name=".Hesap_Makinesi"
+            android:exported="false" />
+        <activity
+            android:name=".ikinci_Derece_Denklem"
+            android:exported="false" />
+        <activity
+            android:name=".GirisYap"
+            android:exported="false" />
+        <activity
+            android:name=".KayitOl"
+            android:exported="false" />
+        <activity
             android:name=".Tas_Kagit_Makas_Oyunu"
             android:exported="false" />
         <activity

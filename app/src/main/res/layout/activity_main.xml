@@ -58,6 +58,38 @@
         app:layout_constraintVertical_bias="0.056" />
 
     <Button
+        android:id="@+id/taş_kağıt_makas_butonu3"
+        android:layout_width="323dp"
+        android:layout_height="48dp"
+        android:background="@drawable/roundstyle"
+        android:gravity="bottom|clip_horizontal|center|clip_vertical|start|right|center_horizontal|fill|fill_horizontal|top|left|center_vertical|fill_vertical|end"
+        android:onClick="Hesap_makinesi_butonu"
+        android:text="Hesap Makinesi Oyunu"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ikinci_derece_denklem_butonu"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <Button
+        android:id="@+id/ikinci_derece_denklem_butonu"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:background="@drawable/roundstyle"
+        android:gravity="bottom|clip_horizontal|center|clip_vertical|start|right|center_horizontal|fill|fill_horizontal|top|left|center_vertical|fill_vertical|end"
+        android:onClick="ikinci_derece_denklem"
+        android:text="İkinci Derece Denklem Hesaplatıcı"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taş_kağıt_makas_butonu"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <Button
         android:id="@+id/Aklımdan_sayi_butonu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

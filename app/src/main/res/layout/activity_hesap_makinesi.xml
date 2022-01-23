@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hesap_Makinesi">
+
+    <Button
+        android:id="@+id/toplama_button"
+        android:layout_width="165dp"
+        android:layout_height="61dp"
+        android:background="@drawable/roundstyle"
+        android:onClick="toplama_butonu"
+        android:text="Toplama"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <Button
+        android:id="@+id/ÜS_alma_buttonu"
+        android:layout_width="165dp"
+        android:layout_height="61dp"
+        android:background="@drawable/roundstyle"
+        android:onClick="Üs_alma"
+        android:text="ÜS ALMA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
+    <Button
+        android:id="@+id/Ana_menü_buton"
+        android:layout_width="197dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundstyle"
+        android:onClick="Ana_Menu_button"
+        android:text="Ana Menü"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <Button
+        android:id="@+id/Bölme_button"
+        android:layout_width="165dp"
+        android:layout_height="61dp"
+        android:background="@drawable/roundstyle"
+        android:onClick="bölme_butonu"
+        android:text="Bölme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <Button
+        android:id="@+id/Çarpma_button"
+        android:layout_width="165dp"
+        android:layout_height="61dp"
+        android:background="@drawable/roundstyle"
+        android:onClick="çarpma_butonu"
+        android:text="Çarpma"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <Button
+        android:id="@+id/Çıkarma_button"
+        android:layout_width="165dp"
+        android:layout_height="61dp"
+        android:background="@drawable/roundstyle"
+        android:onClick="çıkarma_butonu"
+        android:text="Çıkarma"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="239dp"
+        android:layout_height="79dp"
+        android:text="Hesap Makinesi"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#4CAF50"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121" />
+</androidx.constraintlayout.widget.ConstraintLayout>

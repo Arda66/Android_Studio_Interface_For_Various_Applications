@@ -9,7 +9,11 @@
         <entry key="..\:/Users/190315072/AndroidStudioProjects/SansOyunu/app/src/main/res/layout/activity_aklimdan_sayi_tuttum.xml" value="0.5" />
         <entry key="..\:/Users/190315072/AndroidStudioProjects/SansOyunu/app/src/main/res/layout/activity_fitness_danismani.xml" value="0.5" />
         <entry key="..\:/Users/190315072/AndroidStudioProjects/SansOyunu/app/src/main/res/layout/activity_fitness_danismani2.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/190315072/AndroidStudioProjects/SansOyunu/app/src/main/res/layout/activity_game_over.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/190315072/AndroidStudioProjects/SansOyunu/app/src/main/res/layout/activity_giris_yap.xml" value="0.5" />
+        <entry key="..\:/Users/190315072/AndroidStudioProjects/SansOyunu/app/src/main/res/layout/activity_hesap_makinesi.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/190315072/AndroidStudioProjects/SansOyunu/app/src/main/res/layout/activity_ikinci_derece_denklem.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/190315072/AndroidStudioProjects/SansOyunu/app/src/main/res/layout/activity_islemler.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/190315072/AndroidStudioProjects/SansOyunu/app/src/main/res/layout/activity_kayit_ol.xml" value="0.5" />
         <entry key="..\:/Users/190315072/AndroidStudioProjects/SansOyunu/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/Users/190315072/AndroidStudioProjects/SansOyunu/app/src/main/res/layout/activity_main2.xml" value="0.5448369565217391" />
@@ -24,7 +28,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

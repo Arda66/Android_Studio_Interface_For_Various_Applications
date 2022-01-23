@@ -24,12 +24,6 @@ public class AklimdanSayiTuttum extends AppCompatActivity {
     }
 
     public void rastgele_sayi_üret(View view) {
-/*
-        if((min_değer.getText().toString().equals("")) || max_değer.getText().toString().equals("")){
-            gizli_yazı.setText("Lütfen önce Minimum ve maximum değerleri giriniz!");
-            return;
-        }
-*/
         deneme_sayisi = 0;
         gizli_yazı = findViewById(R.id.gizli_yazi);
         tahminim =  findViewById(R.id.tahminim);
@@ -50,17 +44,9 @@ public class AklimdanSayiTuttum extends AppCompatActivity {
             return;
         } else
             rastgele_sayi = random.nextInt(max - min + 1) + min;
-
     }
 
     public void tahmin_et(View view) throws InterruptedException {
-/*
-        if (min_değer.getText().toString().equals(null)   || max_değer.getText().toString().equals(null)     ){
-            gizli_yazı.setVisibility(view.VISIBLE);
-            gizli_yazı.setText("Lütfen önce minimum ve maximum değerleri giriniz!");
-            return;
-        }
-*/
         Random random = new Random();
         Tahminim = Integer.parseInt(tahminim.getText().toString());
         if ((Tahminim > max) || (Tahminim < min)) {
@@ -95,7 +81,7 @@ public class AklimdanSayiTuttum extends AppCompatActivity {
     public boolean Kullanıldı(Integer Tahminim) {
         for (Integer k : kullanılan_rakamlar) {
             if (k.equals(Tahminim)) {
-                gizli_yazı.setText("Bu sayıyı daha önceden kullandın! Lütfen farklı bir sayı dene!");
+                gizli_yazı.setText("Bu sayıyı daha önce denedin! Lütfen farklı bir sayı ile dene!");
                 return true;
             }
         }

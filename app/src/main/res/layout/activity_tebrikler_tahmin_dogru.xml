@@ -22,6 +22,7 @@
         android:id="@+id/button6"
         android:layout_width="185dp"
         android:layout_height="70dp"
+        android:background="@drawable/roundstyle"
         android:onClick="ana_menuye_don"
         android:text="ANA MENÜYE DÖN"
         app:layout_constraintBottom_toBottomOf="parent"
